@@ -72,6 +72,11 @@
                 </configuration>
             </plugin>
             <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-war-plugin</artifactId>
+                    <version>3.4.0</version> <!-- Use a stable recent version -->
+            </plugin>     
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-pmd-plugin</artifactId>
                 <reportSets>
